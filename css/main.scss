@@ -1,0 +1,35 @@
+body {
+  background-color: #343434;
+}
+
+a {
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  text-align: center;
+  max-width: 800px;
+  color: #fff;
+
+  .primary-heading {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .lead {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.3rem;
+  }
+
+  .fa {
+    font-size: 3rem;
+    color: #1C7F51;
+  }
+}
